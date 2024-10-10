@@ -78,5 +78,14 @@ bool Folder::moveFileTo(const std::string& name, Folder& destination) {
 }
 
 bool Folder::copyFileTo(const std::string& name, Folder& destination) {
-
+   if (this != &destination) {
+      auto itr = files_.begin();
+      while ((*itr).getName() != name && itr != files_.end()) { //find file
+         ++itr;
+      }
+      File copy{*itr};
+      bool ifCopied = destination.addFile(copy);
+      return ifCopied;
+   }
+   return false;
 }

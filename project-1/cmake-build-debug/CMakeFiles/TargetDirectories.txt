@@ -1,3 +1,0 @@
-C:/Users/User/Downloads/CSCI 335 project 1/cmake-build-debug/CMakeFiles/CSCI_335_project_1.dir
-C:/Users/User/Downloads/CSCI 335 project 1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/User/Downloads/CSCI 335 project 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
